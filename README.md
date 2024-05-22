@@ -17,6 +17,7 @@ Una vez descargado el repositorio de zippopotam nos encontraremos con 2 carpetas
    * Dentro de la carpeta backend_ escribir el comando `npm install`.
    * Ejecutar el ambiente de desarrollo utilizando el comando `npm run dev`.
    * Se puede utilizar los comandos `npm run build` para compilar y posteriormente `npm run start` para inicializar.
+   * Ejecutar test `npm run test`
  
 Con esto el backend estaria funcionando, Se mostrara en consola el siguiente mensaje:
 ```
