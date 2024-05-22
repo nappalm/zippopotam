@@ -1,11 +1,12 @@
 import { Box, Container, SimpleGrid, useBoolean } from "@chakra-ui/react";
-import axios, { AxiosError } from "axios";
+import { AxiosError } from "axios";
 import ZipCodeForm from "./components/ZipCodeForm";
 
 import { useState } from "react";
 import ZipCodeList from "./components/ZipCodeList";
 import ZipCodePreview from "./components/ZipCodePreview";
 import { useStoreContext } from "./context/StoreContext";
+import { zippopotamApi } from "./service";
 import { ZipCode } from "./types";
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       setLoading.on();
       setError(undefined);
 
-      const response = await axios.get(
-        `http://localhost:3000/api/zipcode/${country}/${zipcode}`
+      const response = await zippopotamApi.get(
+        `/zipcode/${country}/${zipcode}`
       );
 
       setCurrent(response.data);
