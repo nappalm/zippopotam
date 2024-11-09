@@ -1,4 +1,4 @@
-![banner](https://media.licdn.com/dms/image/D5616AQEJD4WoRKwr3w/profile-displaybackgroundimage-shrink_350_1400/0/1716606855383?e=1722470400&v=beta&t=ICqqI-QRxXlNedKbubI01vTBq035HMcea7-TsSylhtA)
+![banner](https://media.licdn.com/dms/image/v2/D5616AQEJD4WoRKwr3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1719351441566?e=1736380800&v=beta&t=U65KO8O-ORKtV0CF2Stj4EfLAe7LyoPlDlzYcV93nRw)
 
 ## 💻 Pasos para ejecutar zippopotam
 
